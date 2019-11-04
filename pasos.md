@@ -1,9 +1,9 @@
 #PASOS A SEGUIR
 
-- [ ] npm install
-- [ ] npm start
-- [ ] docs subida y publicado en Github pages
-- [ ] Asegurar repo con commit funcionando
+- [x] npm install
+- [x] npm start
+- [x] docs subida y publicado en Github pages
+- [x] Asegurar repo con commit funcionando
 
 - [ ] Pintar la estructura de contenedores
 - [ ] Containers y clases BEM
