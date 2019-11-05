@@ -24,7 +24,7 @@
 /*HERO*/
 
 .header__hero {
-  background-image: url(./assets/images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   width: 320px;
   height: 568px;
   background-position: center;
@@ -42,7 +42,7 @@
   text-align: center;
   /*position: absolute;*/
   width: 100%;
-  color: black;
+  color: white;
   z-index: 80;
 }
 
@@ -67,11 +67,11 @@
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  border: solid black;
+  background: white;
   text-align: center;
   margin-left: 137.5px;
 }
 
 .scroll-down-icon {
-  padding-top: 15px;
+  padding-top: 18px;
 }
