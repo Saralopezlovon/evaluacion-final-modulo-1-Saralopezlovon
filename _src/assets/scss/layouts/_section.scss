@@ -12,7 +12,7 @@
 
 /*TITTLE SECTION*/
 
-.reasons-tittle {
+.reasons-title {
   font-size: 24px;
   font-family: "Roboto Slab", serif;
   text-transform: capitalize;
@@ -36,6 +36,12 @@
   width: 180px;
   height: 63px;
   margin-left: 60px;
+}
+
+.reason__title {
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .reason__description {
