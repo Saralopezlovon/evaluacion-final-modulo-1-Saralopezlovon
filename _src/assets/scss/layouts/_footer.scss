@@ -25,6 +25,9 @@
   @media all and (min-width: 768px) {
     margin-left: 218px;
   }
+  @media all and (min-width: 1280px) {
+    margin-left: 470px;
+  }
 }
 
 /*STRUCTURE CONTAINER DIV */
@@ -36,6 +39,10 @@
   @media all and (min-width: 768px) {
     flex-direction: row;
     justify-content: space-around;
+  }
+  @media all and (min-width: 1280px) {
+    margin-left: 300px;
+    margin-right: 300px;
   }
 }
 
