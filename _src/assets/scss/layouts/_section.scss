@@ -4,12 +4,8 @@
   background-color: #eff9ff;
   display: flex;
   flex-direction: column;
-  align-content: center;
+  align-items: center;
   text-align: center;
-  height: 624px;
-  @media all and (min-width: 768px) {
-    height: 397px;
-  }
 }
 
 /*TITTLE SECTION*/
@@ -19,8 +15,6 @@
   font-family: "Roboto Slab", serif;
   text-transform: capitalize;
   margin-top: 30px;
-  margin-left: 29.33px;
-  margin-right: 29.33px;
   margin-bottom: 30px;
   @media all and (min-width: 768px) {
     margin-top: 50px;
@@ -34,7 +28,6 @@
 
 /*3 REASON SECTION*/
 .section-container {
-  height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -44,16 +37,11 @@
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
-    padding-right: 50px;
-    margin-top: 50px;
-    margin-right: 20px;
   }
 }
 
 .section-container__reason {
-  width: 180px;
-  height: 63px;
-  margin-left: 60px;
+  padding: 22.5px 15px;
 }
 
 .reason__title {
@@ -62,7 +50,6 @@
   font-weight: bold;
   @media all and (min-width: 768px) {
     font-size: 24px;
-    width: 200px;
   }
 }
 
@@ -71,7 +58,6 @@
   font-size: 18px;
   @media all and (min-width: 768px) {
     font-size: 20px;
-    width: 200px;
   }
 }
 
@@ -90,12 +76,10 @@
   font-weight: bold;
   background: #f26002;
 
-  margin-left: 60px;
   margin-top: 44.93px;
   margin-bottom: 59.9px;
   transition: color ease 0.5s, background ease 0.5s;
   @media all and (min-width: 768px) {
-    margin-left: 290px;
     padding-bottom: 10px;
   }
   @media all and (min-width: 1280px) {

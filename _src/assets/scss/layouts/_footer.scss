@@ -19,14 +19,8 @@
   text-align: center;
   padding-top: 10px;
   position: relative;
-  left: 131px;
   bottom: 24px;
-  @media all and (min-width: 768px) {
-    margin-left: 218px;
-  }
-  @media all and (min-width: 1280px) {
-    margin-left: 470px;
-  }
+  margin: 0 auto;
 }
 
 /*STRUCTURE CONTAINER DIV */
