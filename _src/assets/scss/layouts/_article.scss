@@ -61,4 +61,11 @@
   background: white;
   margin-top: 30px;
   margin-bottom: 45.12px;
+  transition: color ease 0.5s, background ease 0.5s, border ease 1s;
+}
+
+.buttom-article:hover {
+  color: black;
+  background: lightsalmon;
+  border: solid 2px black;
 }

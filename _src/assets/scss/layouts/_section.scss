@@ -61,4 +61,10 @@
   margin-left: 60px;
   margin-top: 44.93px;
   margin-bottom: 59.9px;
+  transition: color ease 0.5s, background ease 0.5s;
+}
+
+.rectangle-buttom:hover {
+  color: #f26002;
+  background: white;
 }
