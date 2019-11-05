@@ -5,6 +5,9 @@
   background-color: #304268;
   color: white;
   height: 465px;
+  @media all and (min-width: 768px) {
+    height: 240px;
+  }
 }
 
 /*ICON SCROLL UP*/
@@ -19,6 +22,9 @@
   position: relative;
   left: 131px;
   bottom: 24px;
+  @media all and (min-width: 768px) {
+    margin-left: 218px;
+  }
 }
 
 /*STRUCTURE CONTAINER DIV */
@@ -27,6 +33,10 @@
   flex-direction: column;
   align-content: center;
   text-align: center;
+  @media all and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
 
 /*STRUCTURE COPY*/
@@ -38,7 +48,10 @@
   text-align: center;
   line-height: 1.88;
   font-family: "Roboto", serif;
-  order: 3;
+  @media all and (min-width: 768px) {
+    order: -1;
+    align-items: flex-start;
+  }
 }
 .hearts {
   color: red;
@@ -52,9 +65,11 @@
   align-items: center;
   text-align: center;
   line-height: 1.88;
-  order: 1;
   margin-bottom: 20px;
   list-style: none;
+  @media all and (min-width: 768px) {
+    align-items: flex-start;
+  }
 }
 
 .footer__nav-link {
@@ -73,9 +88,11 @@
   align-items: center;
   text-align: center;
   line-height: 1.88;
-  order: 2;
   margin-bottom: 20px;
   list-style: none;
+  @media all and (min-width: 768px) {
+    align-items: flex-start;
+  }
 }
 
 .footer__nav-social-link {
