@@ -8,6 +8,9 @@
   align-content: center;
   text-align: center;
   height: 624px;
+  @media all and (min-width: 768px) {
+    height: 397px;
+  }
 }
 
 /*TITTLE SECTION*/
@@ -20,6 +23,10 @@
   margin-left: 29.33px;
   margin-right: 29.33px;
   margin-bottom: 30px;
+  @media all and (min-width: 768px) {
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
 }
 
 /*3 REASON SECTION*/
@@ -30,6 +37,13 @@
   justify-content: space-around;
   align-content: center;
   text-align: center;
+  @media all and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding-right: 50px;
+    margin-top: 40px;
+  }
 }
 
 .section-container__reason {
@@ -68,6 +82,10 @@
   margin-top: 44.93px;
   margin-bottom: 59.9px;
   transition: color ease 0.5s, background ease 0.5s;
+  @media all and (min-width: 768px) {
+    margin-left: 290px;
+    padding-bottom: 10px;
+  }
 }
 
 .rectangle-buttom:hover {

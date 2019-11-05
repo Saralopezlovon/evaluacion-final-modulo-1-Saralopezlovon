@@ -56,12 +56,18 @@
   text-transform: uppercase;
   padding-top: 284px;
   padding-bottom: 10.22px;
+  @media all and (min-width: 768px) {
+    font-size: 80px;
+  }
 }
 
 .header__hero-inner-second-tittle {
   font-size: 16px;
   font-family: "Roboto Slab", serif;
   padding-bottom: 45px;
+  @media all and (min-width: 768px) {
+    font-size: 24px;
+  }
 }
 
 /*BUTTOM-SCROLL DOWN*/
