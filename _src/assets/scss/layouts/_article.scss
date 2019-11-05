@@ -10,6 +10,10 @@
     padding-left: 40px;
     padding-right: 40px;
   }
+  @media all and (min-width: 1280px) {
+    padding-left: 275px;
+    padding-right: 275px;
+  }
 }
 
 /*CONTAINER ARTICLE*/
@@ -31,6 +35,9 @@
   text-transform: capitalize;
   margin-top: 30px;
   margin-bottom: 5px;
+  @media all and (min-width: 1280 px) {
+    font-size: 16px;
+  }
 }
 
 /*SECOND TITTLE*/
@@ -44,6 +51,9 @@
   @media all and (min-width: 768px) {
     font-size: 26px;
   }
+  @media all and (min-width: 1280 px) {
+    font-size: 32px;
+  }
 }
 
 /*PARAGRAPH*/
@@ -55,6 +65,9 @@
   margin-top: 15px;
   text-align: justify;
   @media all and (min-width: 768px) {
+    font-size: 20px;
+  }
+  @media all and (min-width: 1280 px) {
     font-size: 20px;
   }
 }
