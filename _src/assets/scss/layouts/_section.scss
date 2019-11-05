@@ -1,0 +1,64 @@
+/*STRUCTURE FLEX CONTAINER*/
+
+.reasons {
+  background-color: #eff9ff;
+  border: 3px solid green;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  height: 624px;
+}
+
+/*TITTLE SECTION*/
+
+.reasons-tittle {
+  font-size: 24px;
+  font-family: "Roboto Slab", serif;
+  text-transform: capitalize;
+  margin-top: 30px;
+  margin-left: 29.33px;
+  margin-right: 29.33px;
+  margin-bottom: 30px;
+}
+
+/*3 REASON SECTION*/
+.section-container {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  text-align: center;
+}
+
+.section-container__reason {
+  width: 180px;
+  height: 63px;
+  margin-left: 60px;
+}
+
+.reason__tittle {
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+  /*font-weight: bold;*/
+}
+
+/*BUTTOM SECTION*/
+
+.rectangle-buttom {
+  border: solid 2px #f26002;
+  border-radius: 22.5px;
+  width: 184px;
+  height: 45px;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Roboto Slab", serif;
+  color: white;
+  font-weight: bold;
+  background: #f26002;
+
+  margin-left: 60px;
+  margin-top: 44.93px;
+  margin-bottom: 59.9px;
+}
