@@ -28,6 +28,9 @@
     margin-bottom: 10px;
     font-size: 26px;
   }
+  @media all and (min-width: 1280px) {
+    font-size: 32px;
+  }
 }
 
 /*3 REASON SECTION*/
@@ -95,6 +98,9 @@
   @media all and (min-width: 768px) {
     margin-left: 290px;
     padding-bottom: 10px;
+  }
+  @media all and (min-width: 1280px) {
+    margin-left: 550px;
   }
 }
 
