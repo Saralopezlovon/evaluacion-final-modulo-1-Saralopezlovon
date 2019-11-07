@@ -1,8 +1,8 @@
 /*BASE*/
 
 .footer {
-  background-color: #304268;
-  color: white;
+  background-color: #0271bc;
+  color: black;
   height: 465px;
   @media all and (min-width: 768px) {
     height: 240px;
@@ -24,9 +24,9 @@
 }
 
 /*STRUCTURE CONTAINER DIV */
-.fotter-container {
+.footer-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-content: center;
   text-align: center;
   @media all and (min-width: 768px) {
@@ -48,6 +48,7 @@
   text-align: center;
   line-height: 1.88;
   font-family: "Roboto", serif;
+  margin-bottom: 45px;
   @media all and (min-width: 768px) {
     order: -1;
     align-items: flex-start;
@@ -67,13 +68,15 @@
   line-height: 1.88;
   margin-bottom: 20px;
   list-style: none;
+  margin-bottom: 45px;
+
   @media all and (min-width: 768px) {
     align-items: flex-start;
   }
 }
 
 .footer__nav-link {
-  color: white;
+  color: black;
   text-transform: uppercase;
   text-decoration: none;
   font-size: 16px;
@@ -90,15 +93,22 @@
   line-height: 1.88;
   margin-bottom: 20px;
   list-style: none;
+  margin-bottom: 45px;
   @media all and (min-width: 768px) {
     align-items: flex-start;
   }
 }
 
 .footer__nav-social-link {
-  color: white;
+  color: black;
   text-transform: uppercase;
   text-decoration: none;
   font-size: 16px;
   font-family: "Roboto", serif;
+}
+
+.components {
+  @media all and (min-width: 768px) {
+    color: #f26002;
+  }
 }
